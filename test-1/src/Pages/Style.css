@@ -1,0 +1,46 @@
+/* ---------------------Deals---------------------- */
+
+.grid-ele{
+  height: 400px ;
+  width: 98%;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  position: relative;
+  border-radius: 7px;
+  margin-bottom: 10px;
+}
+.kfc-img-ele{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 9px;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #fff; 
+  font-size: 24px;
+} 
+.grid-ele-1{
+  font-size: 28px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  color: rgb(228, 0, 43);
+  margin-top: 10px;
+  font-weight: bolder ;
+}
+.grid-ele-2{
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 90%;
+  text-align: center;
+  color: rgb(32, 33, 36);
+  margin-left: 6px;
+}
